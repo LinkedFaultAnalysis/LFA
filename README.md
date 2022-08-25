@@ -71,11 +71,13 @@ store :     (k[12] xor k[13]) in key candidates)
   ```
   
  * Third step: Check the stored content (***argument***) of correct key candidates and counter value to evaluating the  success probability of key recovery (line 308).
-  ```
-  cnt = collections.Counter(argument)  
-  print(cnt)
-  print(counter)
-  ```
+ 
+     ```
+     cnt = collections.Counter(argument)  
+     print(cnt)
+     print(counter)
+     ```
+
   
  * Fourth step: for various ***N***, repeat the previous steps.
     N: 6,12,18,24 and 30
@@ -83,3 +85,5 @@ store :     (k[12] xor k[13]) in key candidates)
 
 
 ### Success Probability Table
+
+For retrieving each byte, the success probability is as follows if we have ***N*** fault vector.
