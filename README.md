@@ -50,12 +50,24 @@ Bytes 12 and 13 are similar, as you can see. In the simulation phase, we analyze
 In the simulation, several parameters must be specified, the total number of faults (N), and the percentage of missed and desired faults. For this simulation, we take N as 6, 12, 18, 24, and 30 respectively. Then, by repeating the experiment, and checking the following equation, we determine the success probability of LFA.
 ```
 if    :     (X[12] xor X[13] = k[12] xor k[13])
-store :     (k[12],k[13]) in key candidates)
+store :     (k[12] xor k[13]) in key candidates)
 ```
 * First step:
   set a list of desired and missed faults and append this to ***faultylist*** in python code
   ```
   faultylist =[ ]  #search in data.rar(experimental results) file if you want effective or ineffective fault
+  ```
+  
+* second step:
+  run the [simulation code](https://github.com/LinkedFaultAnalysis/LFA/blob/main/Simulation%20of%20%20LFA.py) on your python API, then decrypt the AES with contents of ***faultylist***  and check the line 276 to store the correct key candidates (k[12] xor k[13])
+  ```
+     for k12 in range(0x100):
+         for k13 in range(0x100):
+             if(k12!=k13):
+                if ( B12C ^ B13C == k12 ^ k13):     #B is intermediate value in our programming
+                   counter  = counter  +1
+                   x = hex(B12C ^ B13C)
+                   argument.append(x)     #the correct key candidates list
   ```
   
   
