@@ -47,5 +47,10 @@ Bytes 12 and 13 are similar, as you can see. In the simulation phase, we analyze
 
 ### Simulation
 
+Then, by repeating the experiment, and checking the following equation, we determine the success probability of LFA.
+```
+if    :     (X[12] xor X[13] = k[12] xor k[13])
+store :     (k[12],k[13]) in key candidates)
 
+```
 ### Success Probability Table
