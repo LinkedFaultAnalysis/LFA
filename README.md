@@ -6,7 +6,7 @@
 
 
 
-* [Description](https://github.com/sefasifa/sefa#simulation)
+* [Description](https://github.com/LinkedFaultAnalysis/LFA/edit/main/README.md#description)
 
 
 
