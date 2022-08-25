@@ -23,3 +23,20 @@
 ### The results of implementation
 
 The faulty vectors are obtained from instruction skips that occur in the intermediate state at the last round of AES based on the experimental results of the LFA implementation. Some of these vectors are given below. 
+
+
+```
+0X652950468B6DFA84920E343EF3F3DAD0 
+0XFF60C2D733F7C6AC8EE0CA88BDBD071D
+0X943000DEE269EF8A07FF156B95956D1A 
+0X098C0DEF878DECBD0F1D7B22B0B08B4E
+0X62024D97324836A9DD770FD729294A03
+0X748B1A59A69F2A4849375E8F353534AA
+0X95D3EEA96352D6E455E980475F5FABBA
+0X585463D09BA7CD5382D49615BCBC41EF
+0X8088B5FBB01352FBA9F9FA90D3D3413B
+0XA1A611365C3229485A47EB30BABA560B
+0X76B70A0F9110A641CC3DDD197A7AA355
+```
+
+Bytes 12 and 13 are similar, as you can see. In the simulation phase, we analyze the implementation results using these leakages. 
