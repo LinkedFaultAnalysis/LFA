@@ -87,4 +87,4 @@ store :     (k[12] xor k[13]) in key candidates)
 ### Success Probability Table
 
 For retrieving each byte, the success probability is as follows, if we have ***N*** desired or missed fault vectors.
-![alt - Github](Link of your image)
+![alt - Github](https://github.com/LinkedFaultAnalysis/LFA/blob/main/Figures/Simulation%20Results.jpg)
