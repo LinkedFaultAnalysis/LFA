@@ -6,10 +6,10 @@
 
 
 
-* [Description](https://github.com/LinkedFaultAnalysis/LFA/edit/main/README.md#description)
-* [The results of implementation](https://github.com/LinkedFaultAnalysis/LFA/edit/main/README.md#the-results-of-implementation)
-* [Simulation](https://github.com/LinkedFaultAnalysis/LFA/edit/main/README.md#simulation)
-* [Success Probability Table](https://github.com/LinkedFaultAnalysis/LFA/edit/main/README.md#success-probability-table)
+* [Description](https://github.com/LinkedFaultAnalysis/LFA#description)
+* [The results of implementation](https://github.com/LinkedFaultAnalysis/LFA#the-results-of-implementation)
+* [Simulation](https://github.com/LinkedFaultAnalysis/LFA#simulation)
+* [Success Probability Table](https://github.com/LinkedFaultAnalysis/LFA#success-probability-table)
 
 
 
