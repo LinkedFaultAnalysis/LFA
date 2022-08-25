@@ -67,7 +67,7 @@ store :     (k[12] xor k[13]) in key candidates)
                 if ( B12C ^ B13C == k12 ^ k13):     #B is intermediate value in our programming
                    counter  = counter  +1
                    x = hex(B12C ^ B13C)
-                   argument.append(x)     #the correct key candidates list
+                   argument.append(x)               #the correct key candidates list
   ```
   
   * third step: Check the stored content(argument) of correct key candidates and counter value to evaluating the  success Probability of key recovery (line 308).
