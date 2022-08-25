@@ -8,6 +8,8 @@
 
 * [Description](https://github.com/LinkedFaultAnalysis/LFA/edit/main/README.md#description)
 * [The results of implementation](https://github.com/LinkedFaultAnalysis/LFA/edit/main/README.md#the-results-of-implementation)
+* [Simulation](https://github.com/LinkedFaultAnalysis/LFA/edit/main/README.md#simulation)
+* [Success Probability Table](https://github.com/LinkedFaultAnalysis/LFA/edit/main/README.md#success-probability-table)
 
 
 
@@ -41,3 +43,9 @@ The faulty vectors are obtained from instruction skips that occur in the interme
 ```
 
 Bytes 12 and 13 are similar, as you can see. In the simulation phase, we analyze the implementation results using these leakages. we use the [AES Python code](https://github.com/Ysjshine/encryption-AES/blob/master/aes.py) public source in our simulation.
+
+
+### Simulation
+
+
+### Success Probability Table
