@@ -26,6 +26,7 @@ The faulty vectors are obtained from instruction skips that occur in the interme
 
 
 ```
+#128 bits
 0X652950468B6DFA84920E343EF3F3DAD0 
 0XFF60C2D733F7C6AC8EE0CA88BDBD071D
 0X943000DEE269EF8A07FF156B95956D1A 
@@ -39,4 +40,4 @@ The faulty vectors are obtained from instruction skips that occur in the interme
 0X76B70A0F9110A641CC3DDD197A7AA355
 ```
 
-Bytes 12 and 13 are similar, as you can see. In the simulation phase, we analyze the implementation results using these leakages. 
+Bytes 12 and 13 are similar, as you can see. In the simulation phase, we analyze the implementation results using these leakages. we use the AES Python code source[Description](https://github.com/LinkedFaultAnalysis/LFA/edit/main/README.md#description).
