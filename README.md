@@ -55,7 +55,7 @@ store :     (k[12],k[13]) in key candidates)
 * First step:
   set a list of desired and missed faults and append this to ***faultylist*** in python code
   ```
-  faultylist =[ ]  #search data.rar(experimental results) file if you want effective or ineffective fault
+  faultylist =[ ]  #search in data.rar(experimental results) file if you want effective or ineffective fault
   ```
   
   
