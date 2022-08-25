@@ -53,13 +53,13 @@ if    :     (X[12] xor X[13] = k[12] xor k[13])
 store :     (k[12] xor k[13]) in key candidates)
 ```
 * First step:
-  set a list of desired and missed faults and append this to ***faultylist*** in python code
+  set a list of desired and missed faults and append this to ***faultylist*** in python code.
   ```
   faultylist =[ ]  #search in data.rar(experimental results) file if you want effective or ineffective fault
   ```
   
-* second step:
-  run the [simulation code](https://github.com/LinkedFaultAnalysis/LFA/blob/main/Simulation%20of%20%20LFA.py) on your python API, then decrypt the AES with contents of ***faultylist***  and check the line 276 to store the correct key candidates (k[12] xor k[13])
+* Second step:
+  run the [simulation code](https://github.com/LinkedFaultAnalysis/LFA/blob/main/Simulation%20of%20%20LFA.py) on your python API, then decrypt the AES with contents of ***faultylist***  and check the line 276 to store the correct key candidates (k[12] xor k[13]).
   ```
      for k12 in range(0x100):
          for k13 in range(0x100):
@@ -70,7 +70,16 @@ store :     (k[12] xor k[13]) in key candidates)
                    argument.append(x)     #the correct key candidates list
   ```
   
+  * third step: Check the stored content(argument) of correct key candidates and counter value to evaluating the  success Probability of key recovery (line 308).
+  ```
+  cnt = collections.Counter(argument)  
+  print(cnt)
+  print(counter)
+  ```
   
-  
-  
+  * fourth step: for various ***N***, repeat the previous steps.
+    N: 6,12,18,24 and 30
+
+
+
 ### Success Probability Table
