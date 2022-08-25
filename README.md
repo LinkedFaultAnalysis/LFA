@@ -12,7 +12,8 @@
 
 
 ### Description
-In some fault attack applications, the rate of missed faults and undesirable faults may be higher, since they are typically indistinguishable from desired faults, especially when the attacker lacks input control to repeat the experiment with a fixed input. However, LFA can manage this existing weakness well, and in the presence of missed faults, it has a high probability of success in recovering secret values.
+The rate of missed faults or undesired faults may be higher in some fault attack applications because they are sometimes hard to distinguish from desired faults, especially when the attacker lacks input control to repeat the experiment with a fixed input. Despite this, LFA can effectively manage this existing weakness, and in the presence of missed faults, it has a high probability of being successful in retrieving secret values. to prove this claim.
+
 
 
 
