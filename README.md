@@ -7,6 +7,7 @@
 
 
 * [Description](https://github.com/LinkedFaultAnalysis/LFA/edit/main/README.md#description)
+* [The results of implementation](https://github.com/LinkedFaultAnalysis/LFA/edit/main/README.md#the-results-of-implementation)
 
 
 
@@ -19,3 +20,4 @@
 
 
 
+### The results of implementation
