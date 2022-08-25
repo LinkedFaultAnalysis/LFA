@@ -70,14 +70,14 @@ store :     (k[12] xor k[13]) in key candidates)
                    argument.append(x)               #the correct key candidates list
   ```
   
- * third step: Check the stored content(argument) of correct key candidates and counter value to evaluating the  success Probability of key recovery (line 308).
+ * Third step: Check the stored content (***argument***) of correct key candidates and counter value to evaluating the  success probability of key recovery (line 308).
   ```
   cnt = collections.Counter(argument)  
   print(cnt)
   print(counter)
   ```
   
- * fourth step: for various ***N***, repeat the previous steps.
+ * Fourth step: for various ***N***, repeat the previous steps.
     N: 6,12,18,24 and 30
 
 
