@@ -92,4 +92,4 @@ store :     (k[12] bytexor k[13]) in key candidates)
 
 For retrieving each byte, the success probability is as follows, if we have ***N*** desired or missed fault vectors.
 
-![alt - Github](https://github.com/LinkedFaultAnalysis/LFA/blob/main/Figures/Simulation%20Results.jpg " width="100" height="100")
+![alt - Github](https://github.com/LinkedFaultAnalysis/LFA/blob/main/Figures/Simulation%20Results.png" width="100" height="100")
