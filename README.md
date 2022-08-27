@@ -83,7 +83,7 @@ store :     (k[12] bytexor k[13]) in key candidates)
 
   
  * Fourth step: for various ***N***, repeat the previous steps.
-    N: 6,12,18,24 and 30
+    ***N***: 6,12,18,24 and 30
 
 
 
