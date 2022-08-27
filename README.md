@@ -56,7 +56,7 @@ if    :     (X[12] bytexor X[13] = k[12] bytexor k[13])
 store :     (k[12] bytexor k[13]) in key candidates)
 ```
 * First step:
-  set a list including desired and missed faults and append it to ***faulty list*** in python code.
+  set a list including desired and missed faults and append it to ***faultylist*** in python code.
   ```
   faultylist =[ ]  #search in data.rar(experimental results) file if you want effective or ineffective fault
   ```
