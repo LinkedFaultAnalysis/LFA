@@ -28,7 +28,8 @@ The faulty vectors are obtained from instruction skips that occur in the interme
 
 
 ```python
-#128 bits
+
+#128 bits          bytes: 1213
 0X652950468B6DFA84920E343EF3F3DAD0 
 0XFF60C2D733F7C6AC8EE0CA88BDBD071D
 0X943000DEE269EF8A07FF156B95956D1A 
@@ -81,6 +82,7 @@ store :     (k[12] bytexor k[13]) in key candidates)
   
  * Fourth step: for various ***N***, repeat the previous steps.
     N: 6,12,18,24 and 30
+
 
 
 
