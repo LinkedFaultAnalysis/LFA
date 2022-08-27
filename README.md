@@ -24,7 +24,7 @@
 
 
 
-### The results of implementation
+### The implementation results
 
 The faulty vectors are obtained from instruction skips that occur in the intermediate state at the last round of AES based on the [experimental results](https://github.com/LinkedFaultAnalysis/LFA/blob/main/data.rar) of the LFA implementation. Some of these vectors are given below. 
 
