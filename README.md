@@ -10,7 +10,7 @@
 
 
 * [Description](https://github.com/LinkedFaultAnalysis/LFA#description)
-* [The results of implementation](https://github.com/LinkedFaultAnalysis/LFA#the-results-of-implementation)
+* [The Implementation Results](https://github.com/LinkedFaultAnalysis/LFA#the-results-of-implementation)
 * [Simulation](https://github.com/LinkedFaultAnalysis/LFA#simulation)
 * [Success Probability Table](https://github.com/LinkedFaultAnalysis/LFA#success-probability-table)
 
