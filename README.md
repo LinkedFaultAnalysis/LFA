@@ -1,6 +1,8 @@
 ## Linked Fault Attack
 ---
-#### This repository contains the documentation from our simulation about LFA. The effectiveness of new attacks is continuously assessed as well as their probability of success against the widely-used cryptographic algorithm. The attack probability of successfully recovering the secret values is illustrated in this instance by applying LFA against AES. 
+#### This repository contains the documentation of our simulations for the LFA. The effectiveness of this new attack is continuously assessed as well as their success probability against a popular cryptographic algorithm. In this instance, the probability of successfully recovering the secret values is illustrated for applying LFA to AES. 
+
+
 
 ---
 
