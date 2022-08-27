@@ -50,20 +50,19 @@ As we can observe, bytes 12 and 13 are similar. In the simulation phase, we anal
 
 
 ### Simulation
-
-In the simulation, several parameters must be specified, the total number of faults (N), and the percentage of missed and desired faults. For this simulation, we take N as 6, 12, 18, 24, and 30 respectively. Then, by repeating the experiment, and checking the following equation, we determine the success probability of LFA.
+The total number of faults (***N***) and the percentage of missed and desired faults (***π***,***1-π***) must both be specified in the simulation. We consider N to be 6, 12, 18, 24, and 30. Then, by repeating the experiment, and checking the following equation, we determine the success probability of LFA.
 ```python
 if    :     (X[12] bytexor X[13] = k[12] bytexor k[13])
 store :     (k[12] bytexor k[13]) in key candidates)
 ```
 * First step:
-  set a list of desired and missed faults and append this to ***faultylist*** in python code.
+  set a list including desired and missed faults and append it to ***faulty list*** in python code.
   ```
   faultylist =[ ]  #search in data.rar(experimental results) file if you want effective or ineffective fault
   ```
   
 * Second step:
-  run the [simulation code](https://github.com/LinkedFaultAnalysis/LFA/blob/main/Simulation%20of%20%20LFA.py) on your python API, then decrypt the AES with contents of ***faultylist***  and check the line 276 to store the correct key candidates (k[12] xor k[13]).
+  run the [simulation code](https://github.com/LinkedFaultAnalysis/LFA/blob/main/Simulation%20of%20%20LFA.py) on your python API, then decrypt the AES with contents of ***faultylist***  and check the line 276 to store the correct key candidates (k[12] bytexor k[13]).
   ```python
   for k12 in range(0x100):
       for k13 in range(0x100):
@@ -74,7 +73,7 @@ store :     (k[12] bytexor k[13]) in key candidates)
                   argument.append(x)             #the correct key candidates list
   ```
   
- * Third step: Check the stored content (***argument***) of correct key candidates and counter value to evaluating the  success probability of key recovery (line 308).
+ * Third step: check the stored contents (***argument***) of correct key candidates and counter value to evaluating the success probability of key recovery (line 308).
  
      ```python
      cnt = collections.Counter(argument)  
