@@ -1,1 +1,2 @@
-Simulation Results: success probability for various percentages of desired and missed faults.
+Simulation Results: the success probability of retrieving a byte/nibble of the last round key, N
+illustrated the number of faulty ciphertexts, AES and PRESENT are candidate block ciphers.
