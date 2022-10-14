@@ -13,7 +13,7 @@
 * [The Implementation Results](https://github.com/LinkedFaultAnalysis/LFA#the-results-of-implementation)
 * [Simulation](https://github.com/LinkedFaultAnalysis/LFA#simulation)
 * [Success Probability Table](https://github.com/LinkedFaultAnalysis/LFA#success-probability-table)
-* [Repeat Simulation on Other SPN-based Block ciphers(PRESENT)](https://github.com/LinkedFaultAnalysis/LFA#success-probability-table)
+* [Repeat Simulation on Other SPN-based Block ciphers(PRESENT)](https://github.com/LinkedFaultAnalysis/LFA#repeat-simulation-on-other-spn-based-block-cipherspresent)
 
 Repeat simulation on other block ciphers
 
