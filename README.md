@@ -98,6 +98,6 @@ For retrieving each byte, the success probability is as follows, if we have ***N
 
 ### Repeat Simulation on Other SPN-based Block ciphers(PRESENT)
 
-To demonstrate the generality of this attack, the success probability of LFA against PRESENT was simulated, and the Python program for this [simulation ](https://github.com/LinkedFaultAnalysis/LFA/blob/main/Success%20Probability%20of%20LFA/LDFA%20against%20PRESENT.py) is provided in this repository. The table below shows the simulation's results. 
+To demonstrate the generality of this attack, the success probability of LFA against PRESENT was simulated, and it is provided in this [repository](https://github.com/LinkedFaultAnalysis/LFA/blob/main/Success%20Probability%20of%20LFA/LDFA%20against%20PRESENT.py). The table below shows the simulation's results. 
 
 <img src="https://github.com/LinkedFaultAnalysis/LFA/blob/main/Figures/Simulation%20Results%20for%20PRESENT.png" alt="Your image title" width="700"/>
