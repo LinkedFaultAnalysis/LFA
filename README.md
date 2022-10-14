@@ -62,7 +62,7 @@ store :     (k[12] bytexor k[13]) in key candidates)
   ```
   
 * Second step:
-  run the [simulation code](https://github.com/LinkedFaultAnalysis/LFA/blob/main/Simulation%20of%20%20LFA.py) on your python API, then decrypt the AES with contents of ***faultylist***  and check the line 276 to store the correct key candidates (k[12] bytexor k[13]).
+  run the [simulation code](https://github.com/LinkedFaultAnalysis/LFA/blob/main/Success%20Probability%20of%20LFA/LDFA%20against%20AES.py) on your python API, then decrypt the AES with contents of ***faultylist***  and check the line 276 to store the correct key candidates (k[12] bytexor k[13]).
   ```python
   for k12 in range(0x100):
       for k13 in range(0x100):
